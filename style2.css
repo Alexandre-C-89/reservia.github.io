@@ -1,0 +1,405 @@
+body{
+    font-family: "Raleway", sans-serif;
+    font-size: 0.8em;
+    font-weight:500;
+}
+
+.header {
+    font-weight: bold;
+    height: 50px;
+    width: 900px;
+    display: flex;
+}
+
+.logo {
+    width: 50%;
+    height: 70%;
+    margin: 1%;
+    display: flex;
+}
+
+.menu {
+    text-decoration: none;
+    width: 45%;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.research /*englobe l'icône, le champ et le bouton*/
+{
+    width: 300px;
+    border: 2px;
+    border-color: #e1e1e1;
+    border: 1px solid #d6ebff;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.research button /*uniquement le bouton recherce*/
+{
+    padding: 9px 9px 9px 9px;
+    color: #fff;
+    border: none;
+    background-color: #0065fc;
+    border-radius: 0px 10px 10px 0px ;
+}
+
+.research input
+{
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.i-research
+{
+    background-color:#e1e1e1;
+    border-radius: 10px 0px 0px 10px;
+    padding: 10px;
+    height: 15px;
+}
+
+.menu a
+{
+    text-decoration: none;
+}
+
+.f-ensembles
+{
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+}
+
+.info
+{
+    display: flex;
+    align-items: center;
+}
+
+.info i
+{
+   color:  #0065fc;
+   border-color: #0065fc;
+
+}
+
+.filtres
+{
+    border-color: grey;
+    list-style-type: none;
+    padding: 0px 1px 0px 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.filtres li
+{
+    height: 32px;
+    border: 1px solid #d6ebff;
+    border-radius: 30px;
+    background-color: #fff;
+    padding: 0px 5px 0px 0px;
+    margin: 3px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.filtres p
+{
+    font-size: 1em;
+    font-weight: bold ;
+} 
+
+.i-filtres
+{
+    background-color:#e1e1e1;
+    color: #0065fc;
+    border-radius: 100%;
+    padding: 10px;
+
+}
+
+.main 
+{
+    height: 450px;
+    display: flex;
+    flex-flow: row;
+}
+
+.hebergements 
+{
+    background-color: #f2f2f2;
+    height: 400px;
+    width: 600px;
+    border-radius: 10px 10px;
+    margin: 5px 20px;
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.hebergements img 
+{
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+    width: 144px ;
+    display: flex;
+    align-content: center;
+}
+
+.hebergements i
+{
+    color: #0065fc;
+}
+
+.hebergements figcaption
+{
+    font-weight: bold ;
+}
+
+.canne
+{
+    border-radius: 12px 12px;
+    background-color: #fff;
+    height: 29%;
+    width: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.port
+{
+    border-radius: 12px 12px;
+    background-color: #fff;
+    height: 29%;
+    width: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mouettes
+{
+    border-radius: 12px 12px;
+    background-color: #fff;
+    height: 29%;
+    width: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mer
+{
+    border-radius: 12px 12px;
+    background-color: #fff;
+    height: 29%;
+    width: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.panier
+{
+    border-radius: 12px 12px;
+    background-color: #fff;
+    height: 29%;
+    width: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.amina
+{
+    border-radius: 12px 12px;
+    background-color: #fff;
+    height: 29%;
+    width: 25%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.lesplus {
+    background-color: #f2f2f2;
+    height: 400px;
+    width: 300px;
+    top: 5px;
+    border-radius: 10px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+
+}
+
+.lesplus img {
+    border-radius: 10px 0px 0px 10px;
+    height: 85px;
+    width: 100px ;
+    padding-right: 10px;
+    display: flex;
+}
+
+.lesplus i
+{
+    color: #0065fc;
+}
+
+.sol
+{
+    border-radius: 12px 12px;
+    background-color: #fff;
+    height: 90%;
+    width: 90%;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.coeur
+{
+    border-radius: 12px 12px;
+    background-color: #fff;
+    height: 90%;
+    width: 90%;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.bb
+{
+    border-radius: 12px 12px;
+    background-color: #fff;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid
+{
+    
+    height: 400px;
+    width: 900px;
+    display: inline-grid;
+    grid-template-columns: 80px 30px 40px 40px;
+    grid-template-rows: 30px 30px 30px 30px;
+}
+
+.grid img
+{
+    height: 300%;
+    width: 300%;
+}
+
+.vp
+{
+}
+
+.vp img
+{
+    
+}
+
+.fp
+{
+    
+}
+
+.fp img
+{
+    
+}
+
+.if
+{
+   
+}
+
+.if img
+{
+
+}
+
+.pc
+{
+
+}
+
+.pc img
+{
+}
+
+.nd
+{
+    
+}
+
+.footer 
+{
+    width: 800px;
+    background-color: #f2f2f2;
+    font-weight: bold;
+    font-style: normal;
+    height: 180px;
+    line-height: 0.8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.apropos 
+{
+    margin: 40px 50px 40px 50px;
+    display: flex;
+    flex-direction: column ;
+}
+
+.heber 
+{
+    margin: 40px 50px 40px 50px;
+    display: flex;
+    flex-direction: column ;
+}
+ 
+.ass {
+    margin: 40px 50px 40px 50px;
+    display: flex;
+    flex-direction: column ;
+}
